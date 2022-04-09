@@ -1,4 +1,4 @@
-# Data-Struct
+# Data-Structures
 Muestrario de estructuras de datos
 
 ## Linked list
