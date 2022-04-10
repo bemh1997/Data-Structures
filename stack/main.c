@@ -36,5 +36,6 @@ int main (int argc, char const * argv[]){
     //showstack(q);
     //pops = pop((struct stack *)&q->stack1);
     Clearstack((struct stack *)&q->stack1);
-    showstack(q);
+    //showstack(q);
+    free(q);
 }

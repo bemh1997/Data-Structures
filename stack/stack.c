@@ -78,6 +78,7 @@ void showstack(struct queue* q){
     int x,y;
     if(q->stack1 == NULL &&q->stack2== NULL){
         printf("Q is empty\n");
+        free(q);
         getchar();
         exit(0);
     }
