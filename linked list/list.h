@@ -21,6 +21,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 
+//structs
 struct node{
     int data;
     struct node *next;
@@ -30,6 +31,7 @@ struct list{
     struct node * head;
     unsigned int length;
 };
+
 //node functions
 struct node* Createnode(int data);
 void deletenode(struct node* nodo);
